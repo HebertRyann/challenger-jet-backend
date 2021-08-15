@@ -2,12 +2,13 @@
 
 
 <h3 align="center">
-    <a href="https://hebertryann.github.io/react-gh-pages/#/">Desafio Tecnico Jet (Backend)</a>
+    Desafio Tecnico Jet (Backend)
 </h3>
 
 
 <p align="center">
  <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#teste-da-aplicação">Testes</a>
  <a href="#autor">Autor</a>
 </p>
 
@@ -26,7 +27,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [MySql](https://dev.mysql.com/downloads/mysql/), além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-### 🎲 Rodando o Backend (Servidor)
+### Rodando o Backend (Servidor)
 
 ```bash
 # Clone este repositório
@@ -43,8 +44,6 @@ $ npm run dev
 
 # O servidor ficara disponivel em http://localhost:3333
 ```
-
-
 ### Teste da Aplicação
 ```bash
 Para roda os teste basta digitar yarn test ou npm run test
@@ -55,7 +54,7 @@ Para roda os teste basta digitar yarn test ou npm run test
 
 ### Rotas da aplição
 
-## Operator (operador)
+#### Operator (operador)
 
 ```bash
 # Listar todos os operadores
@@ -82,7 +81,7 @@ Para roda os teste basta digitar yarn test ou npm run test
 })
 ```
 
-## Clients (Client)
+#### Clients (Client)
 
 ```bash
 # Import arquivo csv e adicona no banco de dados
@@ -95,7 +94,7 @@ Para roda os teste basta digitar yarn test ou npm run test
 #  })
 ```
 
-## Distribution (Distribuição)
+#### Distribution (Distribuição)
 ```bash
 # Executa a destribuição de cliente entre os operadores
  GET http://localhost:3333/distribution
