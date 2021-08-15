@@ -8,7 +8,7 @@
 
 <p align="center">
  <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#teste-da-aplicação">Testes</a>
+ <a href="#teste-da-aplicação">Testes</a> •
  <a href="#autor">Autor</a>
 </p>
 
